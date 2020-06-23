@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	background:url('../img/symphony.png') repeat;
+	/* Background image from http://subtlepatterns.com/ */
+	color:DimGray;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	text-align:center;
+}
+
+.wrapper{
+	margin-top:150px;
+}
+
+.name {
+	border: 10px solid tomato;
+	color:tomato;
+	display: inline;
+	padding: 30px;
+}
+
+
+.title {
+	color: salmon;
+	margin-top: 40px;
+  padding: 30px;
+}
+
+.line-break{
+	border: 1px solid grey;
+    margin: 30px auto;
+    width: 50%;
+}
+
+.phone{
+	color:darkseagreen;
+}
+
+.email{
+	color: darkseagreen;
+	text-decoration:none;
+}
+
+.inspo-quote{
+	font-style:italic;
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
